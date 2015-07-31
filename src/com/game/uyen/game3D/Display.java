@@ -68,7 +68,7 @@ public class Display extends Canvas implements Runnable {
 			createBufferStrategy(3);
 			return;
 		}
-		screen.clear();
+		
 		screen.render();
 
 		for (int i = 0; i < WIDTH * HEIGHT; i++) {
